@@ -1,0 +1,132 @@
+.header
+{ box-shadow: 0 3px 7px -1px rgba(0, 0, 0, 0.1); position: relative;}
+
+.header--image-resize
+{ width: 100%; height: auto; }
+
+.header--name
+{
+	position: absolute;
+	top: 38%; left: 47.5%;
+	font-size: 2.6vw;
+	font-family: 'Play', sans-serif;
+	font-weight: 700;
+}
+
+.header--name > p
+{ color: #34495e; }
+
+
+.header--job 
+{
+	position: absolute;
+	top: 49%; left: 52%;
+	font-size: 1.9vw;
+	font-weight: 700;
+	font-family: 'Play', sans-serif;
+}
+
+.header--job > p
+{ color: #34495e; }
+
+.header--job-btn > .nav-link{
+	padding: 0 !important;
+	
+}
+
+.header--job-btn button {
+	font-size: 20px;
+	box-shadow: 1.5px 1.5px 1.5px rgba(0,0,0,.25);
+  	text-shadow: 1px 1px 1px rgba(0,0,0,.25);
+}
+
+.animate__fadeInDown 
+{ animation-duration: 1.5s; }
+
+.animate__fadeIn 
+{ animation-duration: 1.5s; animation-delay: .7s; }
+
+.animate__pulse
+{ animation-duration: 500ms; animation-delay: 1.4s; }
+
+.zoomIn, .zoomOut
+{ animation-duration: 800ms; }
+
+@media screen and (max-width: 970px) 
+{	
+	.hr-style-animation
+	{ top: 77%; }	
+}
+
+@media (max-width: 801px)
+{  
+	.header--name 
+	{ top: 40%; left: 46%; font-size: 2.9vw; }
+	
+
+	.header--job
+	{ top: 54%; left: 51%; font-size: 2vw; }
+
+	.header--job-btn
+	{ position: absolute; top: 88%; left: 6%; }
+
+	.btn
+	{ padding: .8vw 2vw; font-size: 11px; }
+}
+
+@media screen and (max-width: 680px) {
+	.header--job {
+		font-size: 2.3vw;
+		left: 49.5%; 
+	}
+	.header--job-btn
+	{ position: absolute; top: 76%; left:10%; }
+
+	.btn
+	{ font-size: 12px; }
+
+}
+
+@media screen and (max-width: 639px)
+{
+
+	.header--name
+	{ top: 54%; left: 29.5%; font-size: 4.5vw; }
+	
+	.hr-style-animation
+	{ top: 95%; width: 32vw; }
+	
+	.header--job
+	{ top: 64%; left: 37%; font-size: 3.2vw; }
+	
+	.btn
+	{ padding: 1.8vw 5vw; font-size: 12px; }
+	
+	.header--job-btn
+	{ position: absolute; top: 100%; left:6%; }
+} 
+
+@media screen and (max-width: 509px)
+{
+
+	.header--name
+	{ top: 50%; left: 28%; font-size: 4.9vw; }
+	
+	.hr-style-animation
+	{ top: 95%; width: 32vw; }
+	
+	.header--job
+	{ top: 61%; left: 34%; font-size: 3.9vw; }
+	
+	.btn
+	{ padding: 1.8vw 5vw; font-size: 12px; }
+	
+	.header--job-btn
+	{ position: absolute; top:125%; left:10%; }
+}
+
+@media screen and (max-width: 450px)
+{	
+	.header--job-btn
+	{position: absolute; left:0%; }
+}

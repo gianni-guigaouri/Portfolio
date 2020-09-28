@@ -1,0 +1,103 @@
+.section#portofolio
+{ margin-top: 5rem; }
+
+.filters 
+{ list-style: none; }
+
+.filters .type 
+{
+	display: inline-block;
+	padding: 0.275rem 0.875rem;
+	border-radius: 4px;
+	cursor: pointer;
+	color: #34495e;
+	font-family: 'Play', sans-serif; 
+	font-weight: 700; font-size: 1.2rem;
+	transition: all 0.1s ease;
+}
+
+.filters .type.active 
+{ background: #9b59b6; color: #fff; }
+
+.project-cards
+{ position: relative; margin-top: 6rem; }
+
+.shadow-sm
+{ box-shadow: 0 0.125rem 0.25rem rgba(0,0,0,0.075) !important; }
+
+.project-cards .card-img-container 
+{ overflow: hidden; }
+
+.position-relative 
+{ position: relative !important; }
+
+.isotope-item, .card-img-container
+{ transition: all 2000ms ease; }
+
+.isotope-item { 
+	max-width: 400px; 
+}
+
+.card-img, .card-img-top, .card-img-bottom 
+{ flex-shrink: 0; width: 100%; }
+
+.shadow-sm { 
+	box-shadow: 0 0.125rem 0.25rem rgba(0,0,0,0.075);
+	transition: all 800ms ease;
+}
+
+.badge-pill {
+	text-shadow: 1px 1px 1px rgba(0,0,0,.25);
+}
+
+.shadow-sm:hover {
+	box-shadow: rgba(0, 0, 0, 0.42) 0px 3px 10px 0px !important;
+	transform: scale(1.1);
+}
+
+.project-cards .card-img-overlay.overlay-logo 
+{ margin-top: 0; background: rgba(67,78,94,0.6); }
+
+.project-cards .card-img-overlay 
+{
+	padding: 2rem; color: #fff;
+	-webkit-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+}
+
+.project-cards .card-img-overlay.overlay-logo .project-logo 
+{
+	position: absolute;
+	width: 100%;
+	left: 0; top: 50%;
+	margin-top: -38px;
+}
+
+.project-cards .card-img-overlay.overlay-content 
+{ margin-top: 600px; background: rgba(52, 73, 94, 0.98); text-decoration: none; }
+
+.project-cards .card-img-overlay.overlay-content h5, p
+{ color: white;  font-family: 'Play', sans-serif; font-weight: 700;}
+
+.project-cards .card-img-overlay.overlay-content p
+{ font-size: .905rem; line-height: 2;}
+
+.project-cards .card-img-container:hover .overlay-logo
+{-webkit-opacity:0;-moz-opacity:0;opacity:0}
+
+.project-cards .card-img-container:hover .overlay-content
+{margin-top:0}
+
+
+.card-body .card-title a
+{
+	color: #9b59b6;
+	text-decoration: none;
+	font-family: 'Play', sans-serif; font-weight: 700;
+}
+
+@media screen and (max-width: 799px) {
+	.isotope-item {
+		max-width: 90%;
+	}
+}

@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/static/css/main.894e0c2b.chunk.css",
+    "main.js": "/static/js/main.22b92444.chunk.js",
+    "main.js.map": "/static/js/main.22b92444.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.19ccc7f6.js",
+    "runtime-main.js.map": "/static/js/runtime-main.19ccc7f6.js.map",
+    "static/js/2.36227622.chunk.js": "/static/js/2.36227622.chunk.js",
+    "static/js/2.36227622.chunk.js.map": "/static/js/2.36227622.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.8208c5f31d326c329949c85419b45473.js": "/precache-manifest.8208c5f31d326c329949c85419b45473.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.894e0c2b.chunk.css.map": "/static/css/main.894e0c2b.chunk.css.map",
+    "static/js/2.36227622.chunk.js.LICENSE.txt": "/static/js/2.36227622.chunk.js.LICENSE.txt",
+    "static/media/CV_GIANNI-GUIGAOURI.pdf": "/static/media/CV_GIANNI-GUIGAOURI.4f83dc04.pdf",
+    "static/media/book.png": "/static/media/book.d8a29b35.png",
+    "static/media/code.png": "/static/media/code.606fdf15.png",
+    "static/media/cover-projet.jpg": "/static/media/cover-projet.ee2770e5.jpg",
+    "static/media/cover-projet2.jpg": "/static/media/cover-projet2.b2fad2f6.jpg",
+    "static/media/cover-projet3.jpg": "/static/media/cover-projet3.59377ec3.jpg",
+    "static/media/cover-projet4.jpg": "/static/media/cover-projet4.31f796ac.jpg",
+    "static/media/header-500.jpg": "/static/media/header-500.482ccce8.jpg",
+    "static/media/header-600.jpg": "/static/media/header-600.27165d50.jpg",
+    "static/media/header.jpg": "/static/media/header.ab33d858.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.19ccc7f6.js",
+    "static/js/2.36227622.chunk.js",
+    "static/css/main.894e0c2b.chunk.css",
+    "static/js/main.22b92444.chunk.js"
+  ]
+}

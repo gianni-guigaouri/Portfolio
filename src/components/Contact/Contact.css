@@ -1,0 +1,73 @@
+
+.section#contact
+{ margin-top: 10rem; padding: 5rem 0 0; background-color: #34495e;}
+
+section#contact .section-heading 
+{ color: #fff; font-family: 'Play', sans-serif; font-weight: 700;}
+
+section#contact h2.section-heading 
+{ margin-top: 0; }
+
+section#contact .form-group textarea.form-control 
+{ height: 248px; box-shadow: 1px 1px 1px rgba(0,0,0,.25);}
+
+section#contact .form-group input, section#contact .form-group textarea 
+{ padding: 20px; box-shadow: 1px 1px 1px rgba(0,0,0,.25); border: none; }
+
+section#contact .form-group 
+{ margin-bottom: 25px; }
+
+#contactForm 
+{ margin: 2rem 2rem 1rem; }
+
+#sendMessageButton.btn
+{
+	margin: .5rem 0 1.5rem; padding: 13px;
+	min-width: 130px; background: #1abc9c;
+	font-size: 18px; font-weight: 700;
+	font-family: 'Play', sans-serif; 
+	box-shadow: 1px 1px 1px rgba(0,0,0,.25);
+  	text-shadow: 1px 1px 1px rgba(0,0,0,.25);
+}
+#sendMessageButton.btn:hover 
+{ animation: cvDivColor 300ms ease-in forwards; }
+
+#sendMessageButton.btn:active
+{ border-color:#9b59b6 !important; }
+
+.help-block
+{
+	list-style-type: none;
+	color: #9b59b6 !important;
+	font-family: 'Play', sans-serif; 
+	padding-top: 5px;
+}
+.alert-success 
+{
+	color: white !important;
+	font-family: 'Play', sans-serif; 
+	background-color: #1abc9c !important;
+	border-color: #c3e6cb !important;
+}
+.alert-success 
+{
+	font-family: 'Play', sans-serif; 
+}
+
+.text-success {
+	font-family: 'Play', sans-serif !important; 
+	transition: all 1s ease;
+}
+
+@media screen and (max-width: 900px) {
+	#sendMessageButton.btn {
+		width: 100%;
+		border-radius: 10px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	#contactForm {
+		margin: 10px;
+	}
+}
